@@ -30,7 +30,7 @@ def calculator():
                 print("Invalid input. Please enter numeric values.")
                 continue
 
-            if choice == '1':
+            if choice == '1'
                 print(f"The result is: {add(num1, num2)}")
 
             elif choice == '2':
