@@ -1,11 +1,11 @@
 def add(x, y):
-    return x + y
+    return int(x + y)
 
 def subtract(x, y):
-    return x - y
+    return int(x - y)
 
 def multiply(x, y):
-    return x * y
+    return int(x * y)
 
 def divide(x, y):
     if y == 0:
@@ -30,7 +30,7 @@ def calculator():
                 print("Invalid input. Please enter numeric values.")
                 continue
 
-            if choice == '1'
+            if choice == '1':
                 print(f"The result is: {add(num1, num2)}")
 
             elif choice == '2':
@@ -46,7 +46,7 @@ def calculator():
 
         next_calculation = input("Do you want to perform another calculation? (yes/no): ")
         if next_calculation.lower() != 'yes':
-            print("Exiting calculator. Goodbye!")
+            print("Exiting calculator.")
             break
 
 if __name__ == "__main__":
